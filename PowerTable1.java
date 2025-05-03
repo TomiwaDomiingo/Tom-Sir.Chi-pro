@@ -8,7 +8,6 @@ Scanner input = new Scanner(System.in);
 System.out.println("How many rows do you want in your table?");
 int numRows = input.nextInt();
 
-        // Loop through each row and get the values from the user
       for (int i = 0; i < numRows; i++) {
 System.out.println("Enter the value for 'a' in row " + (i + 1) + ":"); 
  int a = scanner.nextInt();
