@@ -11,19 +11,18 @@ String menu = """
                 3-> chat
                 4-> callRegister
                 5-> tones
-                6-> callSettings
-                7-> phoneSetting
-                8-> security setting
-                9-> restore factory setting
-                10-> callDivert
-                11-> games
-                12-> calculator
-                13-> reminder
-                14-> clock
+                6-> settings
+                7-> callDivert
+                8-> games
+                9-> calculator
+                10-> reminder
+                11-> clock
+                12-> profiles
+                13-> simServices
                 """;
 System.out.println("Welcome to Nokia!");
 System.out.print(menu)
-if(userinput !> 0){
+if(userinput <= 0){
 System.out.println("invalid number"); 
 }
 
