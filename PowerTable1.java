@@ -15,5 +15,5 @@ System.out.println("Enter the value for 'a' in row " + (i + 1) + ":");
 System.out.println("Enter the value for 'b' in row " + (i + 1) + ":");
 int b = scanner.nextInt();
 
-                     // Calculate the po}
+        
 }
